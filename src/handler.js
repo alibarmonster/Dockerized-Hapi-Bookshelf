@@ -110,7 +110,7 @@ const deleteNoteByIdHandler = (request, h) => {
     return response.code(200);
   }
 
-  const response = h.respoonse({
+  const response = h.response({
     status: 'failed',
     message: 'Gagal menghapus catatan',
   });
